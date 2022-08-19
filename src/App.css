@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+
+.elRender {
+  background: rgb(174,238,229);
+  background: radial-gradient(circle, rgba(174,238,229,1) 0%, rgba(148,187,233,1) 34%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container0 {
   display: flex;
   flex-direction: column;
+  margin: 5px;
+  padding: 5px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container1 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  width: 950px;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav { 
+  display: flex;
+  font-size: 32px;
+  list-style: none;
+  font-family: 'Merienda';
+  border-bottom: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  
+  border-image-source: 
+  linear-gradient(176deg, rgba(34,193,195,1) 32%, rgba(89,253,45,1) 100%);
+}
+
+.nav li {
+  display: flex;
+  width: 400px;
+  justify-content: center ;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.profilepic {
+  display: flex;
+  width: 150px;
+  height: auto;
+  border-radius: 30%;
+}
+
+.contenedorPerfil {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 15%;
+  margin: 5px;
+  padding: 5px;
+  border-bottom: solid;
+  border-image-slice: 1;
+  border-image-source: 
+  linear-gradient(176deg, rgba(34,193,195,1) 32%, rgba(89,253,45,1) 100%);
+}
+
+.contenedorPerfil p {
+  font-family: 'Merienda';
+  font-size: 12px;
+}
+
+.containerInfo {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Merienda';
+  font-size: 20px;
+  flex-basis: 85%;
+  margin: 5px;
+  padding: 5px;
+  align-items: center;
+}
+
+.contenedorBarra {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
 }
